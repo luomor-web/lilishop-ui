@@ -1,7 +1,8 @@
 FROM node:10.19.0 as build-stage
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
+RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
+RUN cnpm install
 COPY . .
 RUN npm run build
 
