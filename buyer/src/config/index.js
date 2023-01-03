@@ -5,7 +5,7 @@ module.exports = {
   icpCard: "", // icp证
   company: {
     href: "https://7otech.com",
-    name: "北京宏业汇成科技有限公司",
+    name: "珊瑚海",
   }, //公司信息
   icpMessage: "京ICP备20009696号-1", //icp备案
   /**
